@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link type="text/css" href="my_style.css" rel="stylesheet" />
+</head>
+<body>
+<script src="script.js"></script>
+
+<div class="wrapper">
+	<header class="main-head">The header</header>
+	<nav class="main-nav">
+	  <ul>
+		<li id="info" onclick="printInfo()" >Voertuig informatie</li>
+		<li onclick="printOmgeving()">Voertuig omgeving</li>
+		<li onclick="printVoorraden()">Voorraden</li>
+		<li onclick="printTools()">Tools</li>
+	  </ul>
+	</nav>
+	<article class="content">
+	  <p id="content-print">In this layout, we display the areas in source order for any screen less that 500 pixels wide. We go to a two column layout, and then to a three column layout by redefining the grid, and the placement of items on the grid.</p>
+	</article>
+	<footer class="main-footer">The footer</footer>
+  </div>
+
+
+</body>
+</html>
